@@ -1,4 +1,4 @@
-package main
+package pkg
 
 import (
 	"context"
@@ -109,5 +109,3 @@ func TestNewCassandraConnection(t *testing.T) {
 	assert.NoError(t, err, "Expected no error when executing query on Cassandra")
 }
 */
-
-// TODO: fix and add more robust testing system for Cassandra database
